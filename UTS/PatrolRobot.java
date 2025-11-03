@@ -11,4 +11,5 @@ public void increasePower() {
     Power += 20;
 
 }
+
 }
