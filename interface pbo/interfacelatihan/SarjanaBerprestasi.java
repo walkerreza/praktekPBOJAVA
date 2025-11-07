@@ -1,20 +1,20 @@
 package interfacelatihan;
 
-public class Pascasarjana extends Mahasiswa implements ICumlaude, IBerprestasi {
+public class SarjanaBerprestasi extends Mahasiswa implements ICumlaude, IBerprestasi {
     
-    public Pascasarjana(String nama) {
+    public SarjanaBerprestasi(String nama) {
         super(nama);
     }
     
     // Method dari ICumlaude
     @Override
     public void lulus() {
-        System.out.println("Aku sudah menyelesaikan TESIS");
+        System.out.println("Aku sudah menyelesaikan SKRIPSI");
     }
     
     @Override
     public void meraihIPKTinggi() {
-        System.out.println("IPK-ku lebih dari 3,71");
+        System.out.println("IPK-ku lebih dari 3,51");
     }
     
     @Override
@@ -23,14 +23,14 @@ public class Pascasarjana extends Mahasiswa implements ICumlaude, IBerprestasi {
         System.out.println("Aku berkuliah di kampus.");
     }
     
-    // Method dari IBerprestasi
+    // Method dari IBerprestasi - NASIONAL
     @Override
     public void menjuaraiKompetisi() {
-        System.out.println("Saya telah menjuarai kompetisi INTERNASIONAL");
+        System.out.println("Saya telah menjuarai kompetisi NASIONAL");
     }
     
     @Override
     public void membuatPublikasiIlmiah() {
-        System.out.println("Saya menerbitkan artikel di jurnal INTERNASIONAL");
+        System.out.println("Saya menerbitkan artikel di jurnal NASIONAL");
     }
 }
