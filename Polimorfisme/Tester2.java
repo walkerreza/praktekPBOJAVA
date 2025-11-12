@@ -1,4 +1,4 @@
-public class Tester2 {
+public class Tester2{
     public static void main(String[] args) {
  
         PermanentEmployee pEmp = new PermanentEmployee("Dedik", 500);
@@ -11,7 +11,7 @@ public class Tester2 {
 
         System.out.println("-----------------");
 
-        System.out.println("" + pEmp.getPaymentAmount());
+        System.out.println("" + pEmp.getEmployeeInfo());
 
 
     }

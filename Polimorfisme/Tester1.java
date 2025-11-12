@@ -9,5 +9,8 @@ public class Tester1 {
         e = iEmp;
         p = pEmp;
         p = eBill;
+        // p = iEmp;
+        // e = eBill;
+
     }
 }

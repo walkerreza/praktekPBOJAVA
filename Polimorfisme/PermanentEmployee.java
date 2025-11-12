@@ -20,7 +20,7 @@ public int getPaymentAmount(){
 
 public String getEmployeeInfo(){
     String info = super.getEmployeeInfo()+"\n";
-    info += "Registered as permanent employee for = " + salary + " \n";
+    info += "Registered as permanent employee with salary " + salary + " \n";
     return info;
 }
 }
